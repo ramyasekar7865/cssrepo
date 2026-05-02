@@ -1,0 +1,43 @@
+.navbar{
+    background-color: olivedrab;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+li{
+    list-style-type: none;
+}
+.welcome{
+    border:2px solid red;
+    background-color: aqua;
+    color:rgb(11, 11, 1);
+    border-radius: 20%;
+}
+.border:hover{
+    border:2px solid green;
+    background-color: yellow;
+    color:purple;
+    transition:2s;
+    box-shadow: 5px 5px 5px 5px red;
+}
+.h{
+    color:blue;
+    font-size:larger;
+}
+.e{
+    color:brown;
+
+}
+.l{
+    color:aqua;
+}
+.l1:hover{
+    color:red;
+    transition:2s;
+}
+.o{
+    color: blanchedalmond;
+}
