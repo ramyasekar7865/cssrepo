@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+         h2{
+             background-color: rgb(8,8,167);
+            color:deepskyblue
+        }
+        /* element selector */  
+
+          .green{
+            background-color: green;
+            color:aquamarine
+        } 
+        /* class selector */
+
+          .label{
+            background-color: rgb(138,123,237);
+        } 
+        /* class selector */
+
+          #email{ 
+            color:rgb(19,38,244);
+            font-weight: bolder;
+            font-size: larger;
+
+        } 
+        /* id selector */  
+
+        table,th,td{
+            border:5px solid rgb(138, 16, 16)
+
+        }
+        /* Grouping selector */
+
+        /* *{
+            background-image: url('https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/396e9/MainBefore.jpg');
+        } */
+        /* universal selector */
+      
+    </style>
+
+    <style>
+        body{
+            background-color: rgb(199,255,143);
+        }
+    </style> 
+</head>
+<body>
+    <h1 class="green">Registration form</h1>
+    <h1>Hello</h1>
+    <h2>Element selector example</h2>
+    <form>
+        <label style="color:red;">Name:</label>
+        <!-- <label for ="name">Name</label> -->
+        <input type="text" name="name" id="name" value="Nila"/><br>
+
+         <label class="label">Email:</label>
+        <!-- <label> Email address</label> -->
+        <input type="text" name="email" id="email" placeholder="" value="@gmail.com"/><br> 
+
+     <h2>sample</h2>
+
+     <label class="label">DOB</label>
+         <input type="date" name=" " id="" placeholder=""/><br>
+
+     <button>Submit</button>
+     <button>clear</button>
+    </form>
+
+    <h1>Class Time Table</h1>
+    <table border="5">
+        <!-- border should be 0-5 -->
+        <th>Empno</th>
+        <!-- th=table heading (column) -->
+        <th>Role</th>
+        <th>Location</th>
+        <tr>
+            <!-- tr= table row -->
+            <td>101</td>
+            <!-- td= table data that is cell -->
+            <td>software engineer</td>
+            <td rowspan="2">Chennai</td>
+            <!-- rowspan=vertical (111)
+             colspan=horizondal (-----) -->
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>software engineeer</td>
+        </tr>
+    </table>
+
+
+    </body>
+    </html>
