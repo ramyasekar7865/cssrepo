@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box1 {
+  width: 120px;
+  height: 120px;
+  background: red;
+  margin: 20px;
+  opacity: 1;
+  z-index: 1;
+}
+
+/* Blue box */
+.box2 {
+  width: 120px;
+  height: 120px;
+  background: blue;
+  margin-top: -60px;   /* overlaps red box */
+  margin-left: 60px;
+  opacity: 0.5;        /* default half transparent */
+  position: relative;
+  z-index: 2;
+  transition: opacity 0.3s; /* smooth change */
+}
+
+/* Hover effect */
+.box2:hover {
+  opacity: 1;          /* fully visible on hover */
+}
+</style>
+</head>
+<body>
+
+<div class="box1"></div>
+<div class="box2"></div>
+
+</body>
+</html>

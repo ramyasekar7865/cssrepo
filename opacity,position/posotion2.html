@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 120px;
+  height: 50px;
+  color: white;
+  display: flex;
+   justify-content: center;
+  align-items: center; 
+  margin-bottom: 20px;
+}
+
+/* Relative */
+.relative {
+  background: blue;
+  position: relative;
+  top: 20px;   /* Moves down */
+  left: 20px;  /* Moves right */
+}
+
+/* Absolute */
+.absolute {
+  background: green;
+  position: absolute;
+  top: 100px;   /* Free movement on page  */
+  left: 150px;
+}  
+
+/* Fixed */
+ .fixed {
+  background: orange;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+} 
+
+/* Sticky */
+.sticky {
+  background: purple;
+  position: sticky;
+  top: 0;    /* sticks at top when reached */
+ }  
+</style>
+</head>
+<body>
+
+<h2>Position Examples</h2>
+
+<div class="box relative">Relative</div>
+<div class="box absolute">Absolute</div>
+<div class="box fixed">Fixed</div>
+
+<div style="height:300px;"></div>
+
+<div class="box sticky">Sticky</div>
+
+<p style="height:1000px;">
+Scroll down to see how the sticky and fixed boxes behave.
+</p>
+
+</body>
+</html>

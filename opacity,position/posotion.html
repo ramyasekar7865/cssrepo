@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position</title>
+        <style>
+            .box1{
+                width:100px;
+                height:100px;
+                background: red;
+                margin:20px;
+
+            }
+            .box2{
+                width:100px;
+                height:100px;
+                background: blue;
+                position:relative;
+                top:-50px;
+                left:50px;
+                opacity:0.5;
+                z-index:2;
+
+            }
+            /* position-allow movement using top/left
+            opacity-makes it half transparent
+            z-index- keeps second box on top of the first */
+
+        </style>
+    </head>
+    <body>
+        <h1>Position</h1>
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </body>
+</html>
