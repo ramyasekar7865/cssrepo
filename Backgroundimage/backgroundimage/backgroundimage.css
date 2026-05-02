@@ -1,0 +1,20 @@
+table,th,td{
+    border:5px solid rgb(206, 206, 215);
+    margin-top: 50px;
+    margin-left: 575px;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+body{
+    /* background-image: linear-gradient(to bottom left,rgb(101, 154, 245),rgb(131, 200, 223),rgb(77, 77, 255)); */
+/* background-image: url('https://getwallpapers.com/wallpaper/full/f/2/9/1093099-nature-background-hd-2000x1333-for-1080p.jpg'); */
+background-image: url('image.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.maintable{
+   
+    backdrop-filter: blur(25px);
+}
