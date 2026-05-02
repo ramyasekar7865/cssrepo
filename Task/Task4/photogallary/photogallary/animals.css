@@ -1,0 +1,42 @@
+.mainimg{
+  display: flex;
+  justify-content: space-between;
+}
+.img1{
+    border:3px solid greenyellow;
+    height: 250px;
+    width: 250px;
+    background-image: url('https://www.vulasafaris.com/wp-content/uploads/2019/11/wES6qY3R.jpg');
+}
+.img1:hover{
+    background-image: url('https://artbreeder.b-cdn.net/imgs/0959cc21a44aa721a615.jpeg?width=256');
+     border:3px solid rgb(242, 201, 38);
+    height: 250px;
+    width: 250px;
+}
+
+.img2{
+    border:5px solid black;
+    height:250px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS0N1ZY5dpgbTe9RQwJ3RX4t1X5XWbMYNwCQ&s');
+    width:250px;
+}
+.img2:hover{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYxZNiN5VOtCTFtyIi0dgobg2U3pZ_KzpU4Q&s');
+    height:250px;
+    width:250px;
+    border:5px solid mediumseagreen;
+    
+}
+.img3{
+    border:3px solid red;
+    height:250px;
+    width:250px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz1JzNM_hJ_E3B1-MkB-KS5LTJ-G_FxqwFyw&s');
+}
+.img3:hover{
+          border:3px solid yellow;
+          height:250px;
+          width:250px;
+          background-image: url('https://static.wikia.nocookie.net/party-animals/images/4/4b/Tuskarr.png/revision/latest?cb=20231014203057');
+}

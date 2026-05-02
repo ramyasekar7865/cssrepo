@@ -1,0 +1,28 @@
+td{
+  text-align: center;
+}
+
+table,td,th{
+    border:5px solid purple;
+}
+
+.Red{
+    color:red;
+}
+
+.Green{
+    color:green;
+}
+
+.Yellow{
+    color:rgb(36, 33, 234);
+}
+.Red1{
+    background-color: red;
+}
+.Green1{
+    background-color: green;
+}
+.Yellow1{
+    background-color:rgb(26, 58, 217);
+}

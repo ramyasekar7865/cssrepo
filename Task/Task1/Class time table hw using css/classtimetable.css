@@ -1,0 +1,56 @@
+table,th,td{
+    border:5px solid purple;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding:3px;
+    font-size: larger;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    text-align: left;
+    text-decoration: line-through;
+
+}
+/* grouping selector */
+th{
+    color:blue;
+    font-weight: bolder;
+}
+/* element selector */
+
+td{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+
+.Tamil{
+    background-color: red;
+}
+
+.English{
+    background-color:aqua;
+}
+.Maths{
+    background-color:rgb(235, 103, 202);
+}
+.Science{
+    background-color:greenyellow;
+}
+.Social{
+    background-color:blueviolet;
+}
+.Lab{
+    background-color:yellow;
+}
+/* class selector */
+
+.Break{
+    background-color: aquamarine;
+}
+
+.Lunch{
+    background-color: aquamarine;
+}

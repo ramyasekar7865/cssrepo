@@ -1,0 +1,48 @@
+.mainimg{
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(aqua, pink, yellow);
+}
+h1{
+    text-shadow: 5px 5px 5px red;
+}
+.img1{
+    border:3px solid greenyellow;
+    height: 250px;
+    width: 250px;
+    background-image: url('https://images.meesho.com/images/products/55310850/nynbq_512.webp?width=256');
+}
+.img1:hover{
+    background-image: url('https://images.meesho.com/images/products/572269172/0cqyr_512.webp?width=256');
+     border:3px solid rgb(242, 201, 38);
+    height: 250px;
+    width: 250px;
+}
+
+.img2{
+    border:5px solid black;
+    height:250px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1dCtal73cUiZFfdqModduCxQ-q9DHrr30g&s');
+    width:250px;
+}
+.img2:hover{
+    background-image: url('https://m.media-amazon.com/images/X/bxt1/M/4bxt1BlRgPM5UWY._SL256_QL75_FMwebp_.jpg');
+    height:250px;
+    width:250px;
+    border:5px solid mediumseagreen;
+    
+}
+.img3{
+    border:3px solid red;
+    box-shadow: 5px 5px 5px 5px blue;
+    border-radius: 10%;
+    height:250px;
+    width:250px;
+    background-image: url('https://images.meesho.com/images/products/407804941/ma8uu_512.webp?width=256');
+}
+.img3:hover{
+          border:3px solid yellow;
+          height:250px;
+          width:250px;
+          background-image: url('https://www.dealsmagnet.com/images/sasimo-hut-type-kids-toys-jumbo-play-tent-house-l-16z3JSQ0.jpg');
+}

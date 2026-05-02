@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+.pic{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: magenta;
+}
+
+ body{
+    background-color: aqua;
+}

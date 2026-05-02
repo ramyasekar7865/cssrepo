@@ -1,0 +1,26 @@
+.main2{
+    display: flex;
+}
+.con{
+    width:890px;
+}
+.mian{
+display: flex;
+}
+h2{
+    text-decoration: underline;
+   
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+body{
+    background-color: skyblue;
+ 
+}

@@ -1,0 +1,50 @@
+.mainimg{
+  display: flex;
+  justify-content: space-between;
+}
+.img1{
+    border:3px solid greenyellow;
+    height: 200px;
+    width: 200px;
+    background-image: url('https://ik.imagekit.io/2xkwa8s1i/img/npl_raw_images/Arti_FL/WARFLVELDPLPKS1/WARFLVELDPLPKS1_LS_1.jpg?tr=w-256');
+}
+.img1:hover{
+    background-image: url('https://m.media-amazon.com/images/I/71-Y+bd+i9L._AC_UF350,350_QL80_.jpg');
+     border:3px solid rgb(242, 201, 38);
+    height: 200px;
+    width: 200px;
+}
+
+.img2{
+    border:5px solid black;
+    height:250px;
+    background-image: url('https://www.kisanshop.in/uploads/golden-hills-cosmos-sensation-mix-dwarf-flower-seeds.webp');
+    width:250px;
+}
+.img2:hover{
+    background-image: url('https://images.stockcake.com/public/9/c/2/9c23879c-d0be-48e7-bc76-59d239bfbdd6_medium/floral-beauty-stockcake.jpg');
+    height:250px;
+    width:250px;
+    border:5px solid mediumseagreen;
+    
+}
+.img3{
+    border:3px solid red;
+    height:250px;
+    width:250px;
+    background-image: url('https://images.stockcake.com/public/6/2/9/6297b922-14a9-46f2-878f-1aa255875691_medium/botanical-delicacy-stockcake.jpg');
+}
+.img3:hover{
+          border:3px solid yellow;
+          height:250px;
+          width:250px;
+          background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqhV77z3KQo3dQJyoP9wPGLMOT9QEvaGQC8A&s');
+}
+
+.img{
+       padding:3px;
+       border:3px solid rgb(33, 33, 32);
+       width: 205px;
+       height: 205px;
+}
+
